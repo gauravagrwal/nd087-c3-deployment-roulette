@@ -1,0 +1,14 @@
+gaura@gauravagrwal MINGW64 /g/learning/udacity/SRE - OLX Scholarship/nd087-c3-deployment-roulette/starter/apps/canary (master)
+$ kubectl get pods
+NAME                           READY   STATUS    RESTARTS   AGE
+blue-8475cbdf46-bwcsj          1/1     Running   0          9m
+blue-8475cbdf46-rvc4x          1/1     Running   0          9m
+blue-8475cbdf46-s974r          1/1     Running   0          9m
+canary-v1-64598c676f-8sdr9     1/1     Running   0          9m2s
+canary-v1-64598c676f-ldctg     1/1     Running   0          9m2s
+canary-v2-5dc9c56687-fmr5c     1/1     Running   0          19s
+canary-v2-5dc9c56687-knqhk     1/1     Running   0          19s
+green-5cdd96c9b4-7fw6d         1/1     Running   0          8m59s
+green-5cdd96c9b4-dhj9c         1/1     Running   0          8m59s
+green-5cdd96c9b4-lwf27         1/1     Running   0          8m59s
+hello-world-794458d64d-tlh7d   1/1     Running   0          9m7s

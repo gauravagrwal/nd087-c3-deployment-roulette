@@ -1,0 +1,121 @@
+gaura@gauravagrwal MINGW64 /g/learning/udacity/SRE - OLX Scholarship/nd087-c3-deployment-roulette/starter/apps/canary (master)
+$ kubectl exec -it debug sh
+kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
+Unable to use a TTY - input is not a terminal or the right kind of file
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0   5250      0 --:--:-- --:--:-- --:--:--  5250
+<html>
+<h1>This is version 1</h1>
+</html>
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0  21000      0 --:--:-- --:--:-- --:--:-- 21000
+<html>
+<h1>This is version 2</h1>
+</html>
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0  21000      0 --:--:-- --:--:-- --:--:-- 21000
+<html>
+<h1>This is version 1</h1>
+</html>
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0   7000      0 --:--:-- --:--:-- --:--:--  7000
+<html>
+<h1>This is version 2</h1>
+</html>
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+<html>
+<h1>This is version 2</h1>
+</html>
+100    42  100    42    0     0  21000      0 --:--:-- --:--:-- --:--:-- 21000
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+<html>
+<h1>This is version 2</h1>
+</html>
+100    42  100    42    0     0  42000      0 --:--:-- --:--:-- --:--:-- 42000
+curl 172.20.123.235
+<html>
+<h1>This is version 2</h1>
+</html>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0  14000      0 --:--:-- --:--:-- --:--:-- 14000
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0  42000      0 --:--:-- --:--:-- --:--:-- 42000
+<html>
+<h1>This is version 2</h1>
+</html>
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+<html>
+<h1>This is version 1</h1>
+</html>
+100    42  100    42    0     0  21000      0 --:--:-- --:--:-- --:--:-- 21000
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+<html>
+<h1>This is version 2</h1>
+</html>
+100    42  100    42    0     0  21000      0 --:--:-- --:--:-- --:--:-- 21000
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0  21000      0 --:--:-- --:--:-- --:--:-- 21000
+<html>
+<h1>This is version 2</h1>
+</html>
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+<html>
+<h1>This is version 1</h1>
+</html>
+100    42  100    42    0     0  21000      0 --:--:-- --:--:-- --:--:-- 21000
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0  21000      0 --:--:-- --:--:-- --:--:-- 21000
+<html>
+<h1>This is version 2</h1>
+</html>
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0  42000      0 --:--:-- --:--:-- --:--:-- 42000
+<html>
+<h1>This is version 1</h1>
+</html>
+curl 172.20.123.235
+<html>
+<h1>This is version 1</h1>
+</html>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0  14000      0 --:--:-- --:--:-- --:--:-- 14000
+curl 172.20.123.235
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    42  100    42    0     0  10500      0 --:--:-- --:--:-- --:--:-- 10500
+<html>
+<h1>This is version 1</h1>
+</html>
